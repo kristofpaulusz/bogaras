@@ -1,0 +1,12 @@
+--Hozz létre egy Laravel projektet. 
+--Hozz létre hozzá egy adatbázist.
+--species(sp_id, name, nomenclature, classification)
+--    parent_class -> c_id [classification]
+--classification(c_id, parent_class, name, level)
+--    parent_class -> c_id [classification] 
+
+Hozz létre modellt és controllert a táblához.
+Hozz létre migrációval 1 táblát. 
+A táblát töltsd fel néhány adattal (a migrate fájlba írd bele). 
+Hozz létre végpontokat. 
+Hozz létre a controllerbe olyan függvényeket, amik kiszolgálják a végpontokat. Legalább egy get végpontod legyen, ami lekéri az adatbázisból az összes adatot.
